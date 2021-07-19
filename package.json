@@ -1,0 +1,19 @@
+{
+  "name": "etherscan-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/parsetx.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "path": "^0.12.7",
+    "xlsx": "^0.17.0"
+  }
+}
